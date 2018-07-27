@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>TODOList</title>	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="app">
+		<h1>My TODO List</h1>
+		<div class="todomain">
+			<ul id="U">			   
+			   <li id="model">			     		        
+		          	<input type="checkbox" id="t1" onclick="addline()">
+		          <span>TodoItem的內容</span>
+		          <button id="delbtn" type="button" onclick="delitem()">DEL</button>
+		        </li>
+		    </ul>
+		</div>
+		<div class="todoadd">
+		    <input type="text" id="T" placeholder="请输入待做事项">
+		    <button type="button" onclick="addtolist()">ADD</button>
+		</div>		
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
