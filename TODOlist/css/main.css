@@ -4,14 +4,17 @@
 }
 #app h1,.todoadd{
     text-align: center;
+
 }
 ul li{
 	list-style-type: none;
     font-size: 25px;
     font-family: MONOSPACE;
+    width: 500px;
+    margin: 0 auto;
 }
 #T{
-    width: 200px;
+    width: 350px;
     height: 32px;
     font-size: 25px;
     font-family: MONOSPACE;
@@ -23,9 +26,13 @@ ul li{
     border-radius: 3px;
     margin-right: 10px;
 }
+#delbtn{
+    float: right;
+ }
+ 
 button{
     width: 41px;
-    height: 18px;
+    height: 24px;
 }
 button{
     color: white;
@@ -46,4 +53,44 @@ button:hover {
 
 button:active {
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+}
+input:checked + span {
+        color: initial;
+        font-weight: bold;
+        text-decoration: line-through;
+    }
+input[type=checkbox]{
+  cursor: pointer;/*悬停时小手*/
+}
+input[type=checkbox]:checked:before {
+content: "\2713";
+    background: #fffed5;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 20px;
+    text-align: center;
+    line-height: 8px;
+    display: inline-block;
+    width: 13px;
+    height: 15px;
+    color: orange;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    margin: -3px -3px;
+    text-indent: 1px;
+}
+input[type=checkbox]:before {
+content: "\202A";
+    background: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 20px;
+    text-align: center;
+    line-height: 8px;
+    display: inline-block;
+    width: 13px;
+    height: 15px;
+    color: #00904f;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    margin: -3px -3px;
+    text-indent: 1px;
 }

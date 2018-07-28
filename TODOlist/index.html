@@ -11,17 +11,24 @@
 		<div class="todomain">
 			<ul id="U">			   
 			   <li id="model">			     		        
-		          	<input type="checkbox" id="t1" onclick="addline()">
-		          <span>TodoItem的內容</span>
-		          <button id="delbtn" type="button" onclick="delitem()">DEL</button>
+		          	<label><input type="checkbox" id="t1" onclick="addline()">
+		          <span>TodoItem的內容</span></label>
+		          <button id="delbtn" onclick="delitem()">DEL</button>
 		        </li>
 		    </ul>
 		</div>
 		<div class="todoadd">
-		    <input type="text" id="T" placeholder="请输入待做事项">
-		    <button type="button" onclick="addtolist()">ADD</button>
+		    <input type="text" id="T" placeholder="请输入待做事项" list="history">
+		    <datalist id="history">
+		    	<option>value="历史输入"</option>
+		    	<option>value="历史输入"</option>
+		    	<option>value="历史输入"</option>
+		    	<option>value="历史输入"</option>		    	
+		    </datalist>
+		    <button id="addbtn" onclick="addtolist()">ADD</button>
 		</div>		
 	</div>
+	
 	<script src="js/main.js"></script>
 </body>
 </html>

@@ -19,11 +19,11 @@ function addtolist(text1) {
      
      Checkbox.setAttribute("type","checkbox");
      Checkbox.setAttribute("id","t1");
-     Checkbox.addEventListener('click',addline);
+     //Checkbox.addEventListener('click',addline);
      Btn.setAttribute("id","delbtn");
      Btn.innerHTML="DEL";
      Btn.name="DEL";/**/
-     Btn.addEventListener('click',delitem);
+     //Btn.addEventListener('click',delitem);
      span.innerHTML=text1;//向span中添加内容
      Li.appendChild(Checkbox);
      Li.appendChild(span);
@@ -33,13 +33,18 @@ function addtolist(text1) {
      document.getElementById("T").focus();
 
 }
-   function delitem() {
+  /* function delitem() {
 	//当点击删除按钮式，该按钮对应的事件将删除
 	//alert("删除了");
+	//不用函数也能实现
    }
  function addline() {
-     alert("加上横线了");
- }
+ 	//获取文本内容
+ 	//var DE=document.createElement("del");//创建del标签
+ 	//DE.appendChild(span.innerHTML);//向del中添加文本内容
+    // alert("加上横线了");
+    //不用函数也能实现
+ }*/
   //对按下enter键事件(keypress)的监听
    document.getElementById("T").onkeypress = function (event) {
     if(event.keyCode === 13){
