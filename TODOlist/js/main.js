@@ -1,9 +1,4 @@
-//全局变量
-/*var oUl = document.getElementsByTagName("ul")[0];
-var oInput = document.getElementsByTagName("input")[0];*/
-
 function addtolist(text1) {
-	;
 	//当点击添加按钮时，输入框的文本即立刻添加到上述列表，按序从上到下排列
 	//动态向ul中添加li元素
 	if (document.getElementById("T").value.length===0) {
@@ -33,25 +28,7 @@ function addtolist(text1) {
      document.getElementById("T").focus();
 
 }
-  /* function delitem() {
-	//当点击删除按钮式，该按钮对应的事件将删除
-	//alert("删除了");
-	//不用函数也能实现
-   }
- function addline() {
- 	//获取文本内容
- 	//var DE=document.createElement("del");//创建del标签
- 	//DE.appendChild(span.innerHTML);//向del中添加文本内容
-    // alert("加上横线了");
-    //不用函数也能实现
- }*/
-  //对按下enter键事件(keypress)的监听
-   document.getElementById("T").onkeypress = function (event) {
-    if(event.keyCode === 13){
-        addtolist();
-      }
-    };
-    //删除功能的实现，不太懂
+    //删除功能
   var oUl = document.getElementsByTagName("ul")[0];
         oUl.onclick = function(event) {
             var event = event || window.event;
