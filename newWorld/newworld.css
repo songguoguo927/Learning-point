@@ -1,0 +1,294 @@
+header{
+  font-family:"Microsoft Yahei";
+  height: 100px;
+  width: 1187px;
+  margin: 0 auto;
+}
+.clear h1{
+  font-size: 26px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+.clear h1 a{
+  position: absolute;
+  top: 40px;
+  right: 65px;
+}
+.clear h1 img{
+  display: inline;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 40px;
+}
+.clear .nav{
+  float: right;
+  width: 80%;
+  height: 70px;
+}
+.clear .nav li {
+    padding:45px 17px;
+    float: right;
+  }
+.clear .nav li a{
+  color: grey;
+}
+.clear .nav li a:hover{
+    font-size: 20px;
+    color:#FF4040; 
+    text-decoration: none;
+  }
+.container .banner {
+	height: 720px;
+	background: url(img/img1.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}			    
+.container .banner .inner{   
+    position: absolute;
+    top:180px;
+    left: 90px;
+    height: 250px;
+}
+.container .banner .inner h1,p,a{
+  color:white;
+  font-family:"Microsoft Yahei";
+}
+.container .banner .inner h1{
+  font-size: 59px;
+}
+.container .banner .inner p{
+    font-size: 16px;
+		line-height: 0.5em;
+  }
+.container .banner .inner button{
+  background-color:#e8504f;
+	width: 350px;
+	height: 70px;
+  font-size: 30px;
+ }
+ .container .list{
+  height: 174px;
+}
+ .container .list .clear .item{
+ /*border-right: 1px solid gray;*/
+ display: inline-block;
+
+ width: 25%;
+ float: left;
+}
+.container .list .clear .item img{
+  display: block;
+  margin: 20px auto;
+}
+.container .list .clear .item p{
+  color: gray;
+  font-size: 12px;
+  display:inline-block;
+  text-align: center;
+  width: 100%;
+}
+.container .about{
+  background-color: #E8E8E8;
+	height: 300px;
+  text-align:center;
+}
+.container .about img{
+  margin-top: 50px;
+}
+.container .about p{
+  font-size: 54px;
+  color:#b0b0b2;
+  font-family:"Microsoft Yahei";
+}
+.container .city{
+  height:300px;
+	background: url(img/task_1_07_2.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+  padding-top: 80px;
+}
+.container .city h1{
+  color: white;
+}
+.container .action{
+  text-align: center;
+  background-color: #EDEDED;
+	background-position: left;
+  height: 610px;
+}
+.container .action .picture{
+  display: inline-block;
+  padding: 25px;
+  width: 25%;
+  float: left;
+  margin: 80px auto;
+}
+.container .action .picture img{
+  border: 3px solid white;
+}
+.container .action .picture p{
+  color: black;
+}      
+.container .slides-clear{
+ height:533px;
+ background-position: left;
+ font-size: 30px;
+ font-family:"Microsoft Yahei";
+ color: white;
+}
+.container .slides-clear .time{
+  background: url(img/slide.jpg) no-repeat;
+  height: 533px;
+  width: 75%;
+  float: left;
+}
+.container .slides-clear .time .big-time{
+  font-size: 120px;
+  margin-top: 25px;
+}
+.container .slides-clear .time h1{
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin: 30px auto;
+}
+.container .slides-clear .time p{
+  font-size:15px;
+  line-height: 1em;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.container .slide-desc{
+  width: 25%;
+  height: 533px;
+  float: right;
+}
+.container .slide-desc .slide-desc2{
+  margin: 100px auto;
+  text-align: center;
+}
+.container .slide-desc .slide-desc2 h2{
+  font-size: 19px;
+  color: black;
+}
+.container .slide-desc .slide-desc2 p{
+  line-height: 25px;
+  color: #aba6a5;
+  font-size:13px;
+  margin: 20px;
+}
+.container .new-time2{
+  height: 444px;}
+.container .new-time2 .left{
+  background: #FF4040;
+  height: 444px;
+  width: 33%;
+  float: left;
+}
+.container .new-time2 .left .colum-inner1{
+  text-align: center;
+  position:relative;
+  top: 170px;
+  font-size: 25px;
+}
+.container .new-time2 .center{
+  display:inline-block;
+  background: white;
+  height: 444px;
+  width: 33%;
+  float: left;
+   }
+.container .new-time2 .center .colum-inner{
+  text-align: center;
+  position:relative;
+  top: 170px;
+  font-size: 25px;
+  font-family: "Microsoft Yahei";
+  color: red;
+}
+.container .new-time2 .center .colum-inner p{
+  color: red;
+}
+.container .new-time2 .time-img{
+  height: 444px;
+  width:33%;
+  float: left;
+}
+.container .new-time2 .time-img img{
+ width: 100%;
+}
+.container .join {
+  margin: 20px auto;
+   }
+.container .join .join-desc{ 
+  text-align: center;
+}
+.container .join p{
+  color: black;
+}
+.container .join .register-left{
+width: 40%;
+float: left;
+padding: 20px;
+}
+.container .join .register-left .register-info .clear{
+  width: 100%;
+  height: 130px;
+  list-style: none; 
+}
+.container .join .register-left .register-info .clear a{
+  color: black;
+  float: right;
+}
+.container .join .register-right{
+  width: 60%;
+  float: right;
+  padding: 52px;
+}
+.container .join .register-right input{
+  width: 40%;
+  height: 41px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.container .join .register-right textarea{
+  width: 80%;
+}
+.container .join .register-right #submit{
+  float: right;
+  margin-right: 20%;
+}
+footer{
+  width:100%;
+  padding-top: 50px;
+  display: inline-block;
+}
+footer .email{
+  color: white;
+  text-align: center;
+  background-color:#333;
+  height: 350px;
+}
+footer .email h2{
+  line-height: 150px;
+}
+footer .email li{
+  display: inline-block;
+  height: 50px;
+  width:50px;
+}
+footer .copyright{
+  background-color: black;
+  height: 40px;
+}
+footer .copyright span{
+  color: white;
+  margin-left: 202px;
+}
+footer .copyright a{
+  float: right;
+  margin-right: 202px;
+}
