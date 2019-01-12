@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>简单登陆</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+        <!--<link href="css/style.css" rel="stylesheet">-->
+        <style>
+        body{
+            background-color: #ebeff2;
+            }
+            h1 {
+                text-align: center;
+            }
+            .container-small {
+                max-width: 500px;
+                background-color: #fff;
+                margin:10% auto; 
+                border-radius: 5px;  
+            }
+            /*.alert{
+                /*display: none;
+                visibility: hidden;
+            }*/
+            .btn{
+                margin-bottom: 20px;
+            }
+            /*.btn:active ~ #tip{
+               display:block;
+            }*/
+
+            
+        </style>
+ 
+    </head>
+    <body>
+    <div  class="container container-small">
+            
+        
+        <h1>Login</h1>
+        
+        <form>
+            <div id="tip" class="alert alert-success">登录成功~正在跳转...</div>
+            <div class="form-group">
+                <label for="">username</label>
+                <input type="username" class="form-control">               
+            </div>
+
+            <div class="form-group">
+                <label for="">password</label>
+                <input type="pasword" class="form-control">               
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" onclick="tip()">走你</button>
+            <script>
+               function tip(){
+                   //点击走你触发进度提示
+                //    document.getElementById("tip").style.visibility="visible";
+                alert("快点写功能，人家不想再弹出来了")；
+               }
+            </script>
+
+        </form>
+    </div>
+    </body>
+</html>
