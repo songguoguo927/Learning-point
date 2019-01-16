@@ -103,15 +103,15 @@ Git鼓励大量使用分支：常用命令
 
 * 查看分支：git branch
 
-* 创建分支：git branch <name>
+* 创建分支：git branch [name]
 
-* 切换分支：git checkout <name>
+* 切换分支：git checkout [name]
 
-* 创建+切换分支：git checkout -b <name>
+* 创建+切换分支：git checkout -b [name]
 
-* 合并某分支到当前分支：git merge <name>
+* 合并某分支到当前分支：git merge [name]
 
-* 删除分支：git branch -d <name>
+* 删除分支：git branch -d [name]
 
 **-[]`git push`就比较好理解了**
 >git push命令用于将本地分支的更新，推送到远程主机。它的格式与git pull命令相仿。
